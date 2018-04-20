@@ -55,7 +55,7 @@ class RedditDownloader:
 
             
 
-if __name__ == '__main__': #url = 'https://www.reddit.com/r/IndianTeens.json'
+if __name__ == '__main__':
     args = sys.argv
     downloader = RedditDownloader(args[1])
     #print(p[len(p) - 1].get('id'))
