@@ -55,10 +55,9 @@ class RedditDownloader:
 
             
 
-if __name__ == '__main__': #url = 'https://www.reddit.com/r/IndianTeens.json'
+if __name__ == '__main__':
     args = sys.argv
     downloader = RedditDownloader(args[1])
-    # https: //www.reddit.com/r/DesiBoners+IndianBabes+IndianFetish+IndianPorn+IndianTeens+IndiansGoneWild+NRIBabes+indiangirls+sareeNSFW.json
     #print(p[len(p) - 1].get('id'))
     FINISHED = False
     items = []
