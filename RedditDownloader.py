@@ -111,10 +111,6 @@ if __name__ == '__main__':
                         downloader.download(link, name)
                     elif 'gfycat' in link:
                         downloader.ydownload(link, foldername)
-                    elif 'xvideos' in link:
-                        downloader.ydownload(link, foldername)
-                    elif 'pornhub' in link:
-                        downloader.ydownload(link, foldername)
                     else :
                         downloader.ydownload(link, foldername)
                     print(link)
