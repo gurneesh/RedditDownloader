@@ -55,13 +55,14 @@ class RedditDownloader:
 
             
 
-if __name__ == '__main__':
+if __name__ == '__main__': #url = 'https://www.reddit.com/r/IndianTeens.json'
     args = sys.argv
     downloader = RedditDownloader(args[1])
+    # https: //www.reddit.com/r/DesiBoners+IndianBabes+IndianFetish+IndianPorn+IndianTeens+IndiansGoneWild+NRIBabes+indiangirls+sareeNSFW.json
     #print(p[len(p) - 1].get('id'))
     FINISHED = False
     items = []
-    foldername = '../Downloads' + args[1]
+    foldername = '../Downloads/' + args[1]
     if not os.path.exists(foldername):
         os.mkdir(foldername)
     name = None
@@ -113,11 +114,7 @@ if __name__ == '__main__':
                         downloader.ydownload(link, foldername)
                     else :
                         downloader.ydownload(link, foldername)
-                    print(link)
-                    print(count)
             except Exception as e:
                 print(e)
         if (temp == previd):
             FINISHED = True
-
-
