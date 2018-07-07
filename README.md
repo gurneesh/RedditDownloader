@@ -4,4 +4,4 @@ RedditDownloader
 
 Requirements:
 -------------
-*youtube-dl
+* youtube-dl
