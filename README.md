@@ -1,4 +1,8 @@
-# RedditDownloader
-Reddit Subreddit scrapper using youtube-dl
+----------------
+RedditDownloader
+----------------
+* Reddit Subreddit scrapper using youtube-dl
+-------------
 Requirements:
-    download youtube-dl using pip
+-------------
+*youtube-dl
