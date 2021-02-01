@@ -1,7 +1,7 @@
 RedditDownloader
 ----------------
-* Reddit Subreddit scrapper using youtube-dl
+* Reddit Image Scrape written using Golang
 
 Requirements:
 -------------
-* youtube-dl
+* Golang
