@@ -25,6 +25,7 @@ class RedditDownloader:
         print(reddit_url)
         try:
             session = get_tor_session()
+            # header for chrome
             headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36"}
             response = session.get(reddit_url, headers=headers)
             json_data = response.json()
